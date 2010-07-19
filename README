@@ -11,5 +11,10 @@ http://icu-project.org/docs/papers/cpp_report/the_assignment_operator_revisited.
 Each of the source files in this repository is stand-alone and compiles with an
 installation of stdc++.
 
+I'm very thankful for feedback and suggestions regarding examples, use-cases,
+and style, please do not hesitate to contact me.
+
+Introduction to the source files:
+
 'same_type_assignment.cpp' demonstrates how polymorphic assignment can be
 implemented if you know you will only ever assign classes of the same type.
