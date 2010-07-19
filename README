@@ -1,0 +1,15 @@
+PolymorphicCpp github repository information.
+2010-07-19
+
+This repository contains a number of classes and functions that demonstrate some
+of the trickier polymorphic behaviour of C++. The code is heavily inspired by
+Richard Gillam's articles on the assignment operator. They can be found at:
+
+http://icu-project.org/docs/papers/cpp_report/the_anatomy_of_the_assignment_operator.html
+http://icu-project.org/docs/papers/cpp_report/the_assignment_operator_revisited.html
+
+Each of the source files in this repository is stand-alone and compiles with an
+installation of stdc++.
+
+'same_type_assignment.cpp' demonstrates how polymorphic assignment can be
+implemented if you know you will only ever assign classes of the same type.
